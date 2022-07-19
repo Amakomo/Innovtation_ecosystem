@@ -1,0 +1,506 @@
+{
+  "node_data_actor":
+  {
+    "BTC":
+    {
+      "WEBSITE":"https://www.btc-ag.com",
+      "ROLE": "System Integrator",
+      "COMPANY": "Die BTC Business Technology Consulting AG (BTC AG) ist eines der führenden IT-Consulting-Unternehmen in Deutschland mit Niederlassungen in China, Japan, Polen, Rumänien, der Schweiz, der Türkei und den USA. Das Unternehmen mit rund 2.100 Mitarbeitern und Hauptsitz in Oldenburg ist Partner von SAP, Microsoft und AWS"    
+    },
+    "Volkswagen":
+    {
+      "WEBSITE":"https://www.volkswagen.de/de.html",
+      "ROLE"   : "Maschinenbetrieber",
+      "COMPANY":"Die Volkswagen Aktiengesellschaft (abgekuerzt VW AG oder auch Volkswagen AG) mit Sitz im niedersaechsischen Wolfsburg ist ein deutscher Automobilhersteller. Er wird indirekt mehrheitlich von den oesterreichischen Familien Porsche und Pieech kontrolliert. Volkswagen ist der nach generiertem Umsatz groeßte Automobilhersteller der Welt"   
+    },
+    "Trumpf":
+    {
+      "WEBSITE":"https://www.trumpf.com/de_DE/",
+      "ROLE":"Platform betreiber",
+      "COMPANY":"Die Trumpf-Gruppe (Eigenschreibweise: TRUMPF Gruppe) ist ein Unternehmen mit Hauptsitz in Ditzingen nahe Stuttgart. Trumpf gehoert zu den weltweit groessten Anbietern von Werkzeugmaschinen. Mit mehr als 70 operativen Tochtergesellschaften ist die Trumpf-Gruppe weltweit in allen wichtigen Maerkten vertreten"
+    },
+    "Siemens AG":
+    {
+      "WEBSITE":"https://www.siemens.com/de/de.html",
+      "ROLE"   : "Maschinenhersteller",
+      "COMPANY":" Siemens ist ein Mischkonzern mit den Schwerpunkten Automatisierung und Digitalisierung in der Industrie, Infrastruktur für Gebaeude, dezentrale Energiesysteme, Mobilitaetslösungen fuer den Schienen- und Strassenverkehr sowie Medizintechnik. Seinen Kern bildet die boersennotierte Siemens AG als herrschendes Unternehmen, dazu gehören zahlreiche deutsche und internationale Konzernunternehmen"     
+    },
+    "Infor GmbH":
+    {
+      "WEBSITE":"https://www.infor.com/de-de",
+      "ROLE":"Applikationsanbieter/Berator",
+      "COMPANY":"Infor ist ein globales Unternehmen, das Softwareprodukte fuer jeden Aspekt eines Unternehmens anbietet. Infor entwickelt komplette Branchensuiten in der Cloud und setzt effiziente Technologien ein, die die Benutzerfreundlichkeit an erste Stelle setzen, Data Science nutzen und sich problemlos in bestehende Systeme integrieren"   
+    },
+    "INDUMESS":
+    {
+      "WEBSITE":"http://indumess.de",
+      "ROLE":"Serviceananbieter",
+      "COMPANY":"For manufacturing companies in the automotive, aerospace industry and general mechanical engineering, Indumess GmbH has set up a comprehensive range of services for the high-tech area of quality assurance - whether support on site or in the sense of outsourcing"
+    },
+    "DMG Mori":
+    {
+      "WEBSITE":"https://de.dmgmori.com",
+      "ROLE"   : "Maschinenhersteller",
+      "COMPANY":" Die DMG MORI Aktiengesellschaft (Eigenschreibweise in Versalien; bis September 2013: Gildemeister AG; bis Juni 2015: DMG MORI SEIKI AKTIENGESELLSCHAFT) ist einer der groeßten Hersteller von spanenden Werkzeugmaschinen in Deutschland und auch weltweit ein fuehrender Hersteller von CNC-gesteuerten Dreh- und Fraesmaschinen"    
+    },
+    "Slashwhy":
+    {
+      "WEBSITE":"https://slashwhy.de/en/",
+      "ROLE":"Serviceananbieter",
+      "COMPANY":"Slashwhy: The teams are passionate about creative solutions and their knowledge allows for technological innovations"    
+    },
+    "Lenze":
+    {
+      "WEBSITE":"https://www.lenze.com/en-gb/",
+      "ROLE":"Maschinenkomponentenanbieter",
+      "COMPANY":"Die Lenze SE ist ein deutscher Hersteller und Entwickler fuer Antriebstechnik und Automation. Die Zentrale befindet sich in Aerzen-Gross Berkel bei Hameln."   
+    },
+    "Gerrescheimer":
+    {
+      "WEBSITE":"https://www.gerresheimer.com/home",
+      "ROLE":"Maschinenbetrieber",
+      "COMPANY":"Die Gerresheimer AG (vormals Gerresheimer Glas AG) mit Sitz in Duesseldorf ist ein boersennotierter deutscher Hersteller von Primaerverpackungen aus Spezialglas und Kunststoffen fuer die Pharma-, Kosmetik- und Lebensmittelindustrie. Das Unternehmen hat Standorte in Europa, Amerika und Asien."
+    },
+    "Sennheiser":
+    {
+      "WEBSITE":"https://de-de.sennheiser.com",
+      "ROLE":"Maschinenbetrieber",
+      "COMPANY":"Sennheiser ist ein deutscher Hersteller von professioneller Studio- und Uebertragungstechnik.Der Hauptsitz befindet sich in der Wedemark bei Hannover. Zur Sennheiser-Gruppe gehört neben der Marke Sennheiser der Studiomikrofonhersteller Georg Neumann GmbH."
+    }  
+  },
+
+  "node_data_role" :
+  {
+    "System Integrator":
+    {
+      "RESOURCES": "",
+      "ACTIVTIES": "1.Sorgt fuer Machbarkeitspruefungenren   2. Fuehrt das Deployment beim Anwender (evtl. sich selbst) durch  3.Muss IT-Sicherheit mitdenken und zur Not auch mitberaten",
+      "VALUE ADDITION":"1.Bildet die Schnittstelle zwischen Kunde und Anbieter 2. Schafft durchgaengige Loesung (d.h. die Einbindung in das IT/OT-Oekosystem des Anwenders)",
+      "VALUE CAPTURE":"1.Wird meist vom Anwender bezahlt  2.Provisionszahlungen von Applikationsanbietern"
+    },
+    "Maschienenbetrieber":
+    {
+      "RESOURCES":"(a) Die Maschine/ Anlage/ Produktionsstrasse oder sogar das Werk   (b) ECS (Edge,Cloud,Server)  (c) Grundlegende IT-Infrastruktur",
+      "ACTIVITIES":"(a) Integration der Applikationen in Maschine / Konnektoren fuer Geschaeftsprozesse bereitstellen  (b) Applikationen fuer Maschinen generieren",
+      "VALUE ADDITION":"(a) Schnittstellen Integration (b) Applikations-Templates for Maschinen",
+      "VALUE CAPTURE":"(a) Enabler fuer neue Geschaeftsmodelle(PSS, vGM, Pay per Use)"
+    },
+    "ServiceAnbieter/Berater":
+    {
+      "RESOURCES":"(a) Nutzt eigene Server um Services zu entwickeln",
+      "ACTIVITIES":"(a) Fuehrt Bedarfsanalyse für Services durch (b) Entwickelt neue Services und Schnittstellen  (c)  Uebernimmt DevOps Aktivitaeten (continuous deployment) (d)  Registrierung des Services auf der Plattform/ im Service-Store  (e)  Beraet Service-Nutzer und Maschinenhersteller",
+      "VALUE ADDITION":"(a) Ermoeglichen Konnektivitaet und Kompatibilitaet mit anderen Services und Komponenten/Maschinen  (b) Steigern Attraktivitaet der Plattform (c)  Bildet einen Teil der Service-Angebote",
+      "VALUE CAPTURE":"(a) Kann Standards nutzen um Services kompatibel zu machen"
+    },
+    "Plattformbetreiber":
+    {
+      "RESOURCES":"(a) IT-Infrastruktur    (b) Data-Storage    (c) Server-Kapazitaeten fuer Plattform",
+      "ACTIVITIES":"(a) Stellt Marktplatz fuer SS zur Verfuegung (2-sided Plattform) (b) Service konfigurieren und Kombinierbarkeit gewaehrleisten  (c)  Service-Paket (Applikation) muss deployable sein! (d) Service Store anbieten: Tech. Voraussetzungen, Kompatibilitaet  (e) Konnektivitaet gewaehrleisten (f)  Interaktion der Akteure wird ermoeglicht",
+      "VALUE ADDITION":"(a) Stellt Service- und Integrationstools zur Verfuegung: Dev. Confi., Serv. Conf. (z.B. was ist mit was kombinierbar?)  (b) Stellt grundlegende rechtliche Konformitaet sicher (c) Eroeffnet das Entdecken von neuen Service-Paketen (Applikationen) (d)  Stellt Validitaetsmanagement zur Verfuegung (e) Drag'n'Drop Workflow Erstellung (f) Stellt Grund-Infrastruktur zur Verfuegung (g)Enabler fuer Smart Services",
+      "VALUE CAPTURE":"(a) Plattform als Mittel zum Zweck: z.B. Service inklusive, wenn Hardware verkauft wird (b) Pay per Use (c) Profit-orientierter Anbieter vs. altruistischer (z.B. Verbund) (d) Anbieter (e) Bekommt Daten von den Nutzern (f) Lizenzmodell: Pro Service verdient der Betreiber"
+    },
+    "Maschinenhersteller":
+    {
+      "RESOURCES":"1.IoT/ Smart Service Experten 2.Service-techniker 3.Kundenbasis 4.Produktionsanlage fuer Maschinen 5.Produktionsanlage fuer Maschinen",
+      "ACTIVITIES":"1.Integration der Applikationen in Maschine / Konnektoren fuer Geschaeftsprozesse bereitstellen  2.Applikationen fuer Maschinen generieren",
+      "VALUE ADDITION":"1.Schnittstellen Integration  2.Applikations-Templates for Maschinen 3.Beschreibungen: Stellt Informationen nach gewissem Standard bereit",
+      "VALUE CAPTURE":".Enabler fuer neue Geschaeftsmodelle (PSS, vGM, Pay per Use) 2.Angebot von Applikationen"
+    },
+    "Applikationsanbieter/Beraterr":
+    {
+      "RESOURCES":"(a) Umgebung fuer Prototyping (b) Maschinenmodelle und Virtualisierungen",
+      "ACTIVITIES":"(a) Schließt Service-Luecken ggf. mit eigenen Services (b) Vermittelt aktive zwischen der Service/Applikations-Anbieterseite und der Anforderungsseite (c) Gibt Anreize fuer neue Services (d) Kombiniert Services von den entsp. Anbietern",
+      "VALUE ADDITION":"(a) Ermoeglichen Konnektivitaet und Kompatibilitaet mit anderen Services und Komponenten/Maschinen  (b) Steigern Attraktivitaet der Plattform (c)  Bildet einen Teil der Service-Angebote",
+      "VALUE CAPTURE":"(a) Kann Standards nutzen um Services kompatibel zu machen"
+    },
+    "Maschinenkomponentenanbieter":
+    {
+      "RESOURCES":"(a)IoT-Schnittstellen(b) Edge Devices fuer den jeweiligen Service (c) Sensorik der Komponente (d)Field-Devices: Sensoren, Devices, ganze Komponenten",
+      "ACTIVITIES":"(a) Weiterentwicklung der jeweiligen Field-Devices  (b)Analysieren der erhobenen Date (c)IoT (d)Schnittstellen bereitstellen mit den jeweiligen Beschreibungen  (e)Entwickelt Services und Applikationen",
+      "VALUE ADDITION":"(a)Stellt Informationen bereit welche Field-Devices welche Daten bereitstellen können und welche Qualitaet diese haben (b)Welche Standards werden genutzt und wie die Daten bereitgestellt werden (c) Die Antriebs- oder Steuerungskomponenten (d)Bietet evtl. selbst Templates fuer Applikationen an (e) Bietet Services an",
+      "VALUE CAPTURE":"(a)Vernetzung im Wertschoepfungsnetzwerk (b) Kann Markt erweitern, da er zusaetzlich zu den Komponenten auch Services anbieten kann (c)Kann eigene Produkte und Services durch Komplemente (Services, Hardware, ...) aufwerten"
+    }
+  },
+
+    "chords_money": [
+      {
+        "source": {
+            "id": "BTC",
+            "start": 22186054,
+            "end"  : 36186054
+        },
+        "target": {
+            "id": "Trumpf",
+            "start": 21478117,
+            "end"  : 85478117,
+            "relationship": "25000 Euros",
+            "color":"red"
+        },
+        "info" :{
+          "link":"The amount handled between BTC and Trumpf is 25000 Euros."
+        },
+
+        "value":43 ,
+        "chord_color":"red"
+      },
+      {
+        "source": {
+            "id": "Siemens AG",
+            "start": 22186054,
+            "end"  : 36186054
+        },
+        "target": {
+            "id": "INDUMESS",
+            "start": 21478117,
+            "end"  : 85478117,
+            "relationship": "10000 Euros",
+            "color":"yellow"
+        },
+        "info" :{
+          "link":"The amount handled between Siemens and INDUMESS is 10000 Euros."
+        },
+        "value":43,
+        "chord_color":"yellow"
+      },
+      {
+        "source": {
+            "id": "Infor",
+            "start": 22186054,
+            "end"  : 36186054
+        },
+        "target": {
+            "id": "Trumpf",
+            "start": 21478117,
+            "end"  : 85478117,
+            "relationship": "15000 Euros",
+            "color":"grey"
+        },
+        "info" :{
+          "link":"The amount handled between infor GmbH and Trumpf is 15000 Euros."
+        },
+        "value":43,
+        "chord_color":"grey"
+      }
+    ],
+    "chords_knowledge": [
+        {
+            "source": {
+                "id": "Slashwhy",
+                "start": 22186054,
+                "end"  : 36186054
+            },
+            "target": {
+                "id": "Volkswagen",
+                "start": 21478117,
+                "end"  : 85478117,
+                "relationship": "Expertise",
+                "color":"magenta"
+            },
+            "info" :{
+              "link":"Slashwhy teams help in bringing out creative solutions and technological innovations through knowledge: UI/UX, Machine learning, Application Development"
+            },
+            "value": 43,
+            "chord_color":"magenta"
+        },
+        {
+            "source": {
+                "id": "Infor GmbH",
+                "start": 22186054,
+                "end"  : 36186054
+            },
+            "target": {
+                "id": "BTC",
+                "start": 21478117,
+                "end"  : 85478117,
+                "relationship": "Expertise",
+                "color":"grey"
+
+            },
+            "info" :{
+              "link":"Infor offers an industry-specific range of software solutions, for example for CRM (Customer Relationship Management), EAM (Enterprise Asset Management), ERP (Enterprise Resource Planning), Financial Management System, Performance Management (Business Intelligence), PLM (Product Lifecycle Management), SRM (Supplier Relationship Management), SCM (Supply Chain Management), HCM."
+            },     
+            "value": 39,
+            "chord_color":"grey"
+        }
+    ],
+    "chords_resources":  [
+        {
+            "source": {
+                "id": "Lenze",
+                "start": 22186054,
+                "end"  : 36186054
+            },
+            "target": {
+                "id": "Siemens AG",
+                "start": 21478117,
+                "end"  : 85478117,
+                "relationship": "Apps compliance",
+                "color":"blue"
+            },
+            "info" :{
+              "link":"The machine manufacturers get the components from machine component supplier.IoT gateways,Inverters,Controllers, Geared motors,Motors , Gearboxes,Software are some of the products from Lenze."
+            },
+            "value": 43,
+            "chord_color":"blue"
+        },
+        {
+        "source": {
+          "id": "DMG Mori",
+          "start": 23186017,
+          "end"  : 35186051
+      },
+      "target": {
+          "id": "Volkswagen",
+          "start": 22378127,
+          "end"  : 86478117,
+          "relationship": "Compatability of parts",
+          "color":"yellow"
+      },
+      "info" :{
+        "link":" DMG Mori provides Turning and milling machines, the offer also includes advanced technologies, such as Ultrasonic, Lasertec and Additive Manufacturing. In addition, the machine tool manufacturer develops holistic technology and automation solutions up to digital products and solutions"
+      },
+      "value": 43,
+      "chord_color":"yellow"
+  }
+    ],
+    "GRCh37": [
+        {
+          "id": "BTC",
+          "label": "BTC",
+          "color": "red",
+          "len": 249250621
+        },
+        {
+          "id": "Volkswagen",
+          "label": "Volkswagen",
+          "color": "green",
+          "len": 243199373
+        },
+        {
+          "id": "Sennheiser",
+          "label": "Sennheiser",
+          "color": "green",
+          "len": 243199373
+        },
+        {
+          "id": "Gerrescheimer",
+          "label": "Gerrescheimer",
+          "color": "green",
+          "len": 243199373
+        },
+        {
+          "id": "Lenze",
+          "label": "Lenze",
+          "color": "blue",
+          "len": 198022430
+        },
+        {
+          "id": "Siemens AG",
+          "label": "Siemens AG",
+          "color": "yellow",
+          "len": 198022430
+        },
+        {
+          "id": "DMG Mori",
+          "label": "DMG Mori",
+          "color": "yellow",
+          "len": 198022430
+        },
+        {
+          "id": "Infor GmbH",
+          "label": "Infor GmbH",
+          "color": "grey",
+          "len": 198022430
+        },
+        {
+          "id": "INDUMESS",
+          "label": "INDUMESS",
+          "color": "magenta",
+          "len": 198022430
+        },
+        {
+          "id": "Slashwhy",
+          "label": "Slashwhy",
+          "color": "magenta",
+          "len": 198022430
+        },
+        {
+          "id": "Trumpf",
+          "label": "Trumpf",
+          "color": "cyan",
+          "len": 198022430
+        }
+    ],
+    "GRCh38": [
+        {
+          "id": "System Integrator",
+          "label": "System Integrator",
+          "color": "red",
+          "len": 249250621
+        },
+        {
+          "id": "Maschinenbetreiber",
+          "label": "Maschinenbetreiber",
+          "color": "green",
+          "len": 243199373
+        },
+        {
+          "id": "Maschinenkomponentenanbieter",
+          "label": "Maschinenkomponentenanbieter",
+          "color": "blue",
+          "len": 198022430
+        },
+        {
+          "id": "Maschinenhersteller",
+          "label": "Maschinenhersteller",
+          "color": "yellow",
+          "len": 198022430
+        },
+        {
+          "id": "Applikationsanbieter/Berater",
+          "label": "Applikationsanbieter/Berater",
+          "color": "grey",
+          "len": 198022430
+        },
+        {
+          "id": "Service Anbieter/Berater",
+          "label": "Service Anbieter/Berater",
+          "color": "magenta",
+          "len": 198022430
+        },
+        {
+          "id": "Plattformbetreiber",
+          "label": "Plattformbetreiber",
+          "color": "cyan",
+          "len": 198022430
+        }
+    ],
+    "chords1_money": [
+        {
+            "source": {
+                "id": "System Integrator",
+                "start": 29186054,
+                "end"  : 32186054
+            },
+            "target": {
+                "id": "Plattformbetreiber",
+                "start": 25478117,
+                "end"  : 88478117,
+                "relationship": "25000 Euros"
+            },
+            "info" :{
+              "link":"The amount handled between System Intergrator and Plattformbetreiber is 25000 Euros."
+            },
+            "value": 43
+        },
+        {
+          "source": {
+              "id": "Maschinenhersteller",
+              "start": 26186054,
+              "end"  : 36186054
+          },
+          "target": {
+              "id": "Service Anbieter/Berater",
+              "start": 23478117,
+              "end"  : 87478117,
+              "relationship": "10000 Euros"
+          },
+          "info" :{
+            "link":"The amount handled between Maschinenhersteller and Service Anbieter/Berater is 10000 Euros."
+          },
+          "value": 43
+      },
+      {
+        "source": {
+            "id": "Applikationsanbieter/Berater",
+            "start": 26186054,
+            "end"  : 36186054
+        },
+        "target": {
+            "id": "Plattformbetreiber",
+            "start": 23478117,
+            "end"  : 87478117,
+            "relationship": "15000 Euros"
+        },
+        "info" :{
+          "link":"The amount handled between Applikationsanbieter/Beraterr and Plattformbetreiberis 15000 Euros."
+        },
+        "value": 43
+    }
+    ],
+    "chords1_resources": [    
+        {
+            "source": {
+                "id": "Maschinenhersteller",
+                "start": 23186054,
+                "end"  : 36166054
+            },
+            "target": {
+                "id": "Maschinenbetreiber",
+                "start": 22478117,
+                "end"  : 86478117,
+                "relationship": "Expertise"
+            },
+            "info" :{
+                "link":"An actor or role might not own all the necessary resources to use ofr generating value in an ecosystem and can be obtained from other actors or roles"
+            },
+            "value": 43
+        },
+        {
+          "source": {
+              "id": "Maschinenkomponentenanbieter",
+              "start": 23186054,
+              "end"  : 36166054
+          },
+          "target": {
+              "id": "Maschinenhersteller",
+              "start": 22478117,
+              "end"  : 86478117,
+              "relationship": "Expertise"
+          },
+          "info" :{
+            "link":"An actor or role might not own all the necessary resources to use ofr generating value in an ecosystem and can be obtained from other actors or roles"
+        },
+          "value": 43
+      }
+      
+    ],
+    "chords1_knowledge": [
+        {
+            "source": {
+                "id": "Applikationsanbieter/Berater",
+                "start": 22186054,
+                "end"  : 36186054
+            },
+            "target": {
+                "id": "System Integrator",
+                "start": 21478117,
+                "end"  : 85478117,
+                "relationship": "Expertise"
+            },
+            "info" :{
+              "link":"The roles depending on each other for ideas and other expertise:Infor->BTC"
+            },
+            "value": 43  
+        },
+        {
+          "source": {
+              "id": "Service Anbieter/Berater",
+              "start": 24186054,
+              "end"  : 35186054
+          },
+          "target": {
+              "id": "Maschinenbetreiber",
+              "start": 22478117,
+              "end"  : 83478117,
+              "relationship": "Expertise"
+          },
+          "info" :{
+            "link":"The roles depending on each other for knowledge:Slashwhy->Volkswagen"
+          },
+          "value": 43  
+      }
+    ]
+    
+}
+
